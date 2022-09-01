@@ -21,7 +21,8 @@ function updateClock() {
   h = h<10 ? "0" + h : h;
   s = s<10 ? "0" + s : s;
   m = m<10 ? "0" + m : m;
-
+  d = d<10 ? "0" + d : d;
+  day = day<10 ? "0" + day : day;
 
   dateEl.innerText = d;
   dayEl.innerText = day;
